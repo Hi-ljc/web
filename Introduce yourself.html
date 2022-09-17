@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自我介绍</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        /* 主盒子 */
+        .pane {
+            margin: auto;
+            width: 800px;
+            font-family: '宋体';
+        }
+
+        /* 页面顶部 */
+        .top {
+            margin-bottom: 10px;
+            height: 105px;
+            background-color: rgb(45, 62, 80);
+        }
+
+        /* 顶部靠左样式 */
+        .top .resume {
+            float: left;
+            margin-left: 25px;
+            height: 110px;
+            width: 500px;
+            line-height: 100px;
+            color: white;
+            letter-spacing: 20px;
+            font-size: 20px;
+            /* 顶部靠右样式 */
+        }
+
+        .top .contact {
+            float: left;
+            margin-top: 10px;
+            line-height: 30px;
+            color: white;
+            font-weight: 700;
+        }
+
+        /* 每项标题*/
+        .beginning {
+            height: 50px;
+        }
+
+        /* 每项标题样式 */
+        .beginning .topic {
+            float: left;
+            width: 200px;
+            height: 50px;
+            background-color: rgb(45, 62, 80);
+        }
+
+        /* 每项标题字体设置 */
+        .beginning .topic h2 {
+            line-height: 50px;
+            font-weight: 400;
+            letter-spacing: 10px;
+            text-align: center;
+            color: white;
+        }
+
+        /* 每项标题右方灰色部分 */
+        .beginning .right {
+            float: left;
+            height: 50px;
+            width: 400px;
+            background-color: rgb(230, 231, 233);
+        }
+
+        /* 基本资料详情中父盒子 */
+        .pane .individual {
+            margin-left: 25px;
+            padding: 20px, 0;
+            height: 120px;
+        }
+
+        /* 基本资料中详情子盒子样式 */
+        .pane .individual .det {
+            float: left;
+            width: 250px;
+            height: 120px;
+            font-size: 16px;
+            line-height: 40px;
+        }
+
+        /* 自我评价详情盒子 */
+        .pane .appraise {
+            margin-left: 25px;
+            margin-right: 25px;
+            height: 120px;
+        }
+
+        /* 自我评价详情内容设置 */
+        .pane .appraise p {
+            text-indent: 2em;
+            line-height: 25px;
+        }
+
+        /* 兴趣爱好详情盒子样式 */
+        .pane .hobby {
+            margin-left: 25px;
+            margin-right: 25px;
+            height: 100px;
+            line-height: 28px;
+        }
+
+        /* 教育背景详情盒子样式*/
+        .pane .educate {
+            margin-left: 25px;
+            margin-right: 25px;
+            height: 280px;
+            line-height: 25px;
+        }
+
+        /* 教育背景详情标题样式 */
+        .pane .educate h3 {
+            font-size: 24px;
+            line-height: 32px;
+        }
+
+        /* 底部样式 */
+        .bottom {
+            height: 20px;
+            background-color: rgb(45, 62, 80);
+        }
+
+        /* 教育背景中内容标题样式 */
+        #text {
+            font-weight: 600;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- 主盒子 -->
+    <div class="pane">
+        <div class="top">
+            <div class="resume">
+                <h1>自我介绍</h1>
+            </div>
+            <div class="contact">
+                <ul>
+                    <li>电话:151xxx</li>
+                    <li>邮箱:202xxx</li>
+                    <li>地址:四川xxx</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 基本资料标题 -->
+        <div class="beginning">
+            <div class="topic">
+                <h2>基本资料</h2>
+            </div>
+
+            <!-- 标题右边灰色部分 -->
+            <div class="right"></div>
+        </div>
+
+        <!-- 基本资料详情 -->
+        <div class="individual">
+            <div class="det">
+                <ul>
+                    <li>姓名:姓某某</li>
+                    <li>性别:男(女)</li>
+                    <li>年龄:20</li>
+                </ul>
+            </div>
+            <div class="det">
+                <ul>
+                    <li>生日:几月几号</li>
+                    <li>专业:计算机</li>
+                    <li>籍贯:城市</li>
+                </ul>
+            </div>
+            <div class="det">
+                <ul>
+                    <li>政治面貌:团员</li>
+                    <li>就读大学:四川轻化工大学</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 自我评价标题 -->
+        <div class="beginning">
+            <div class="topic">
+                <h2>自我评价</h2>
+            </div>
+            <div class="right"></div>
+        </div>
+
+        <!-- 自我评价详情 -->
+        <div class="appraise">
+            <p>本人性格热情开朗，待人友好，为人真诚谦虚。能吃苦耐劳，尽职尽责，有耐心。善于与人沟通。为人诚恳勤奋好学脚踏实地，有很强的团队精神，工作积极
+                进取，态度认真。具有较高的抗压能力和强烈的责任感。不过参加实践活动有限，社会经验相对缺乏，我相信通过立足于社会能不断提升发展自己。相信金子总会发光。
+            </p>
+        </div>
+
+        <!-- 兴趣爱好标题 -->
+        <div class="beginning">
+            <div class="topic">
+                <h2>兴趣爱好</h2>
+            </div>
+            <div class="right"></div>
+        </div>
+
+        <!-- 兴趣爱好详情 -->
+        <div class="hobby">
+            <ul>
+                <li>个人爱好：自己喜欢做的</li>
+                <li>文艺特长：唱歌跳舞等相关特长</li>
+                <li>专业特长：所学所得的专业技能</li>
+            </ul>
+        </div>
+
+        <!-- 教育背景标题 -->
+        <div class="beginning">
+            <div class="topic">
+                <h2>教育背景</h2>
+            </div>
+            <div class="right"></div>
+        </div>
+
+        <!-- 教育背景详情 -->
+        <div class="educate">
+            <h3>四川轻化工大学&nbsp;&nbsp;&nbsp;计算机专业</h3>
+            <hr>
+            <p id="text">专业培养：</p>
+            <p>
+                计算机科学与技术专业培养学生掌握自然科学基础知识，系统地掌握计算机科学基本理论、计算机软、硬件系统及应用知识，掌握信息系统的基本工作原理，基本具备本领域分析问题、解决问题的能力。学生应了解软、硬件开发的基本流程，至少精通一门开发语言，具备复杂软、硬件系统的分析设计能力和软、硬件团队的管理能力。能从事各行业的相关应用软、硬件的管理、维护及开发工作。
+            </p>
+            <br>
+            <p id="text">主修课程：</p>
+            <p>
+                面向对象程序设计、Python程序设计、数据库系统原理、操作系统、数据结构与算法、离散数学、C++程序设计、软件工程、计算机网络、计算机组成原理、单片机原理及接口技术、编译原理、人工智能。
+            </p>
+        </div>
+
+        <!-- 底部 -->
+        <div class="bottom"></div>
+
+    </div>
+</body>
+
+</html>
