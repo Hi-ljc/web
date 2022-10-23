@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人相册</title>
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/wow.js">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+        }
+
+        .head {
+            margin: 0 auto;
+            width: 1000px;
+            height: 300px;
+            background: url(./image/头.jpg);
+            background-size: 1000px 300px;
+        }
+
+        .top {
+            display: flex;
+            position: sticky;
+            z-index: 1;
+            top: 0;
+            justify-content: space-around;
+            margin: 20px auto;
+            width: 1000px;
+            height: 50px;
+            background: rgb(207, 161, 104);
+        }
+
+        .top a {
+            line-height: 50px;
+            color: white;
+            font-size: 20px;
+        }
+
+        .content {
+            position: relative;
+            margin: 0 auto;
+            width: 1000px;
+            height: 800px;
+        }
+
+        .one {
+            position: absolute;
+        }
+
+        .two {
+            position: absolute;
+            right: 0;
+        }
+
+        .three {
+            position: absolute;
+            top: 300px;
+        }
+
+        .four {
+            position: absolute;
+            right: 0;
+            top: 390px;
+        }
+
+        .five {
+            position: absolute;
+            top: 600px;
+        }
+
+        .six {
+            position: absolute;
+            top: 780px;
+            right: 0;
+        }
+
+        .seven {
+            position: absolute;
+            top: 990px;
+        }
+
+        .eight {
+            position: absolute;
+            top: 1080px;
+            right: 0;
+        }
+    </style>
+    <script>
+        function $(id) {
+            return document.getElementById(id);
+        }
+        function jg1() {
+            $("one").src = "./image/photo/1.jfif";
+        }
+        function tc1() {
+            $("one").src = "./image/photo/1.jpg";
+        }
+        function jg2() {
+            $("two").src = "./image/photo/two.jpg";
+        }
+        function tc2() {
+            $("two").src = "./image/photo/2.jpg";
+        }
+        function jg3() {
+            $("three").src = "./image/photo/3.jpg";
+        }
+        function tc3() {
+            $("three").src = "./image/photo/3.jfif";
+        }
+        function jg4() {
+            $("four").src = "./image/photo/4.jfif";
+        }
+        function tc4() {
+            $("four").src = "./image/photo/4.jpg";
+        }
+        function jg5() {
+            $("five").src = "./image/photo/five.jpg";
+        }
+        function tc5() {
+            $("five").src = "./image/photo/5.jpg";
+        }
+        function jg6() {
+            $("six").src = "./image/photo/six.jfif";
+        }
+        function tc6() {
+            $("six").src = "./image/photo/6.jfif";
+        }
+        function jg7() {
+            $("seven").src = "./image/photo/seven.jpg";
+        }
+        function tc7() {
+            $("seven").src = "image/photo/7.jpg";
+        }
+        function jg8() {
+            $("eight").src = "./image/photo/eight.jpg";
+        }
+        function tc8() {
+            $("eight").src = "./image/photo/8.jpg";
+        }
+    </script>
+</head>
+
+<body>
+    <div class="head"></div>
+    <div class="top">
+        <span><a href="index.html">首页</a></span>
+        <span><a href="introduce yourself.html">个人简介</a></span>
+        <span><a href="interest.html">兴趣爱好</a></span>
+        <span><a href="university.html">大学校园</a></span>
+        <span><a href="journal.html">个人日志</a></span>
+    </div>
+    <div class="content">
+        <div class="one animate__animated animate__backInLeft wow"><img id="one" src="./image/photo/1.jpg" alt=""
+                width="480px" height="270px" onmouseover="jg1()" onmouseout="tc1()"></div>
+        <div class="two animate__animated animate__backInRight wow"><img id="two" src="./image/photo/2.jpg" alt=""
+                width="480px" height="360px" onmouseover="jg2()" onmouseout="tc2()"></div>
+        <div class="three animate__animated animate__backInLeft wow"><img id="three" src="./image/photo/3.jfif" alt=""
+                width="480px" height="270px" onmouseover="jg3()" onmouseout="tc3()"></div>
+        <div class="four animate__animated animate__backInRight wow"><img id="four" src="./image/photo/4.jpg" alt=""
+                width="480px" height="360px" onmouseover="jg4()" onmouseout="tc4()"></div>
+        <div class="five animate__animated animate__backInLeft wow"><img id="five" src="./image/photo/5.jpg" alt=""
+                width="480px" height="360px" onmouseover="jg5()" onmouseout="tc5()"></div>
+        <div class="six animate__animated animate__backInRight wow"><img id="six" src="./image/photo/6.jfif" alt=""
+                width="480px" height="270px" onmouseover="jg6()" onmouseout="tc6()"></div>
+        <div class="seven animate__animated animate__backInLeft wow"><img id="seven" src="image/photo/7.jpg" alt=""
+                width="480px" height="360px" onmouseover="jg7()" onmouseout="tc7()"></div>
+        <div class="eight animate__animated animate__backInRight wow"><img id="eight" src="./image/photo/8.jpg" alt=""
+                width="480px" height="270px" onmouseover="jg8()" onmouseout="tc8()"></div>
+    </div>
+
+</body>
+<script src="js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+
+</html>

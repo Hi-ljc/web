@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>university</title>
+    <link rel="stylesheet" href="./css/animate.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            list-style: none;
+        }
+
+        .head {
+            margin: 0 auto;
+            width: 1280px;
+            height: 720px;
+            overflow: hidden;
+        }
+
+        .head ul {
+            width: 5120px;
+            height: 720px;
+        }
+
+        .head li {
+            float: left;
+        }
+
+        .head img {
+            width: 1280px;
+            height: 720px;
+        }
+
+        .top {
+            display: flex;
+            justify-content: space-around;
+            position: absolute;
+            top: 0;
+            left: 50%;
+            margin: 20px auto;
+            margin-left: -640px;
+            width: 1280px;
+            height: 50px;
+            background: green;
+        }
+
+        .top a {
+            line-height: 50px;
+            color: white;
+            font-size: 20px;
+        }
+
+        .intr {
+            margin: 20px auto;
+            width: 1500px;
+        }
+
+        p {
+            font-size: 16px;
+            text-indent: 32px;
+            line-height: 24px;
+        }
+
+        .grid {
+            display: grid;
+            margin: 0 auto;
+            width: 1500px;
+            grid-template-columns: repeat(15, 100px);
+            grid-template-rows: repeat(5, 100px);
+            background: green;
+        }
+
+        .grid .item:nth-child(4) {
+            grid-row: 1/6;
+            grid-column: 4/5;
+            background: white;
+        }
+
+        .grid .item:nth-child(5) {
+            grid-row: 1/5;
+            grid-column: 6/7;
+            background: white;
+        }
+
+        .grid .item:nth-child(8) {
+            grid-row: 1/6;
+            grid-column: 8/9;
+            background: white;
+        }
+
+        .grid .item:nth-child(12) {
+            grid-row: 1/6;
+            grid-column: 12/13;
+            background: white;
+        }
+
+        .grid .item:nth-child(17) {
+            grid-row: 2/3;
+            grid-column: 2/4;
+            background: white;
+        }
+
+        .grid .item:nth-child(21) {
+            grid-row: 2/3;
+            grid-column: 10/12;
+            background: white;
+        }
+
+        .grid .item:nth-child(14) {
+            grid-row: 2/3;
+            grid-column: 14/16;
+            background: white;
+        }
+
+        .grid .item:nth-child(26) {
+            grid-row: 4/5;
+            grid-column: 1/3;
+            background: white;
+        }
+
+        .grid .item:nth-child(30) {
+            grid-row: 4/5;
+            grid-column: 9/11;
+            background: white;
+        }
+
+        .grid .item:nth-child(33) {
+            grid-row: 4/5;
+            grid-column: 14/16;
+            background: white;
+        }
+
+        .hd,
+        .hl,
+        .lbh,
+        .yb {
+            margin: 10px auto;
+            width: 1500px;
+            height: 480px;
+        }
+
+        .hd img,
+        .lbh img {
+            float: left;
+        }
+
+        .hl img,
+        .yb img {
+            float: right;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="head">
+        <ul id="imglist">
+            <li><img src="./image/university/12.png" alt=""></li>
+            <li><img src="./image/university/6.png" alt=""></li>
+            <li><img src="./image/university/2.png" alt=""></li>
+            <li><img src="./image/university/12.png" alt=""></li>
+        </ul>
+    </div>
+    <div class="top">
+        <span><a href="index.html">首页</a></span>
+        <span><a href="introduce yourself.html">个人简介</a></span>
+        <span><a href="interest.html">兴趣爱好</a></span>
+        <span><a href="photo.html">个人相册</a></span>
+        <span><a href="journal.html">个人日志</a></span>
+    </div>
+    <div class="intr">
+
+        <h1>
+            四川轻化工大学（Sichuan University of Science &Engineering）
+        </h1>
+        <p>位于四川省自贡市，在宜宾市也设有校区。入选中西部高校基础能力建设工程、卓越工程师教育培养计划、四川省卓越农林人才教育培养计划、四川2011计划、数据中国“百校工程”，是首批四川省博士后创新实践基地、四川省首批创新改革试点高校、四川省第二批省级深化创新创业教育改革示范高校、四川省高新技术产业示范科研单位、首批高等学校科技成果转化和技术转移基地、中国酿酒高校联盟秘书长单位、天府高校外事联盟理事单位、川南高校联盟副理事长单位。
+        </p>
+        <p>
+            学校前身是1965年建立的华东化工学院（现华东理工大学）西南分院；1972年改为上海化工学院四川分院；1979年改建为四川化工学院；1983年更名为四川轻化工学院；2003年四川轻化工学院与自贡师范高等专科学校、自贡高等专科学校和自贡教育学院合并组建四川理工学院；2018年更名为四川轻化工大学。
+        </p>
+        <p>
+            截至2022年6月，学校坐落在两个国家历史文化名城自贡市和宜宾市，拥有汇东本部、李白河、宜宾、黄岭四个校区，占地面积4700余亩，建筑面积160多万平方米，图书纸质文献总量307万余册，中外文献数据库124个；下设24个学院，开设77个本科专业；有8个一级学科硕士授权点（涵盖36个二级学科），11个专业学位类别（涵盖35个专业学位领域）；有教职工2400余人，其中专任教师1958人，全日制在校研究生、本科生、留学生等4.5万人。
+        </p>
+    </div>
+    <div>
+        <div class="grid animate__animated animate__zoomIn wow">
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+        </div>
+        <div class="hd">
+            <img src="./image/university/14.png" alt="" width="800px" height="500px">
+            <h1>四川轻化工大学汇东校区</h1>
+            <p>四川轻化工大学汇东校区是建筑与设施主类中人文景观综合体亚类中的教学科研实验场所基本类型。
+                四川轻化工大学汇东校区建筑主要建有公共服务中心、教学实验楼、音乐大楼、美术大楼、图书办公综合管、实验、实习实训区等主要功能区。学校布局科学合理。四川轻化工大学汇东校区位于自流井区学苑街道新汇社区。</p>
+        </div>
+        <div class="hl">
+            <img src="./image/university/15.png" alt="">
+            <h1>四川轻化工大学黄岭校区</h1>
+            <p>四川轻化工大学黄岭校区管理委员会、基础教学部属学院正处级单位，实行两块牌子、一套班子，下设办室、学生工作办公室（含挂靠机构学生宿舍管理站）、教学管理办公室、保卫办公室；组建黄岭校区管委会、基础教学部党总支和团总支。
+            </p>
+            <p>管委会、基础教学部对其下设的办公室及其人员实行统一管理，对履行岗位职责、工作业绩、劳动纪律等进行考核和奖惩。学院各相关职能部门在政策、制度、规范、业务等方面对其业务对口的办公室进行指导和监督。</p>
+            <p>管委会、基础教学部代表学院协调黄岭校区后勤服务工作的管理，后勤服务总公司黄岭分公司的现有构架和运行机制保持不变。
+                预科部划归基础教学部管理。</p>
+            <p>2018年教育部致函四川省人民政府同意四川理工学院更名为四川轻化工大学，原四川理工学院黄岭校区学生已经搬迁到市区校区和临港校区。黄岭校区现为自贡市人民政府、四川轻化工大学、自贡彩灯集团三方共建四川轻化工大学彩灯学院学生实习教学基地。
+            </p>
+        </div>
+        <div class="lbh">
+            <img src="./image/university/5.png" alt="" width="800px">
+            <h1>四川轻化工大学李白河校区</h1>
+            <p>四川轻化工大学李白河校区项目总用地面积837亩，办学规划为可容纳1.5万名学生，共有24个单体建筑，总建筑面积约44万平方米，将交付使用音乐学院、美术学院、彩灯艺术馆、风雨操场等20个建筑单体，5月底交付使用图书馆、体育馆、科学会堂、室内网球中心等4个建筑单体。
+            </p>
+        </div>
+        <div class="yb">
+            <img src="./image/university/7.png" alt="" width="800px">
+            <h1>四川轻化工大学宜宾校区</h1>
+            <p>四川轻化工大学宜宾校区位于四川省宜宾临港经济技术开发区（又称三江新区），是宜宾大学城入驻的第一所高校，是中国酒业协会授牌的“中国白酒学院”。占地2000亩，总建筑面积55万平方米，总投资43.5亿元。</p>
+            <p>2016年10月，根据四川理工学院学校建设发展和区域产业发展的需要，四川理工学院与宜宾市政府签订协议，在宜宾共建四川理工学院宜宾校区（白酒学院）。2017年9月，四川理工学院宜宾校区一期正式投入使用。2018年12月，经
+                教育部批准，学校正式更名为四川轻化工大学宜宾校区。</p>
+            <p>学校拥有酿酒生物技术及应用四川省重点实验室，以及四川省白酒工程技术中心、四川省传统酿酒产业改造升级协同创新中心等一批学科学术平台。已入驻生物工程学院、管理学院、经济学院、机械工程学院、国际学院等11个学院2万名师生、600余名留学生。
+            </p>
+        </div>
+    </div>
+    <script>
+        var left = 0;
+        var timer;
+        run();
+        function run() {
+            if (left <= -3840) {
+                left = 0;
+            }
+            imglist.style.marginLeft = left + "px";
+            var n = (left % 1280 == 0) ? n = 1500 : n = 10;
+            left -= 10;
+            timer = setTimeout(run, n);
+        }
+    </script>
+</body>
+<script src="./js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+
+</html>

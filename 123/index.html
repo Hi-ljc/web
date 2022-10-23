@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>主页</title>
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./font/iconfont.css">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            text-decoration: none;
+        }
+
+        body {
+            background: url(image/3.jpg);
+        }
+
+        .fixed {
+            display: flex;
+            position: fixed;
+            right: 50px;
+            top: 50%;
+            margin-top: -120px;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 80px;
+            height: 240px;
+        }
+
+        .fixed a {
+            display: block;
+        }
+
+        .option {
+            width: 80px;
+            height: 80px;
+            font-size: 60px;
+            text-align: center;
+            line-height: 80px;
+            color: white;
+        }
+
+        .top {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px auto;
+            width: 800px;
+            height: 50px;
+        }
+
+        .top a {
+            line-height: 50px;
+            color: white;
+            font-size: 20px;
+        }
+
+        /* 页面内容*/
+        .box {
+            width: 1000px;
+            margin: auto;
+            margin-top: 100px;
+            font-weight: 400;
+            font-family: '楷体';
+            color: white;
+            text-align: center;
+        }
+
+        /* 图片设置 */
+        .box img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+
+        /* 自我介绍大标题 */
+        .box h1 {
+            font-size: 80px;
+            letter-spacing: 15px;
+        }
+
+        .fixed .option:hover {
+            font-size: 80px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="fixed animate__animated animate__backInRight">
+        <a href="#">
+            <div class="option iconfont icon-shouji"></div>
+        </a>
+        <a href="#">
+            <div class="option iconfont icon-liuyanjianyi"></div>
+        </a>
+        <a href="#">
+            <div class="option iconfont icon-haoping"></div>
+        </a>
+    </div>
+    <div class="top">
+        <span><a href="introduce yourself.html">个人简介</a></span>
+        <span><a href="interest.html">兴趣爱好</a></span>
+        <span><a href="university.html">大学校园</a></span>
+        <span><a href="photo.html">个人相册</a></span>
+        <span><a href="journal.html">个人日志</a></span>
+    </div>
+    <div class="box">
+        <img src="image/photo.jpg" alt="">
+        <h1>欢迎来到个人博客</h1>
+    </div>
+</body>
+
+</html>
